@@ -41,6 +41,12 @@
     transform: translate(-50%,-50%);
 }
 
+.tell-me-more {
+    display: block;
+    margin: 0;
+    text-align: center;
+}
+
 .page-title {
     color: white;
     font-size: 60px;
@@ -52,10 +58,6 @@
     color: white;
     font-size: 30px;
     text-align: center;
-}
-
-.tell-me-more {
-    position: absolute;
 }
 
 .nav-item a{
@@ -77,8 +79,13 @@
 
 /* Services*/
 
+.services-row p {
+    text-align: justify;
+}
 
-/* Portfolio */
+.portfolio {
+    margin-bottom: 20px;
+}
 
 
 .section-title {
@@ -102,3 +109,32 @@
 .box img{
     object-fit: cover;
 }
+
+/* Footer */
+
+.page-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-footer p {
+    position: absolute;
+    left: 0;
+}
+
+.page-footer li {
+    display: inline;
+    font-size: 0;
+}
+
+.page-footer i {
+  font-size: 15px;
+  background: black;
+  width: 30px;
+  height: 30px;
+  color: #ffffff;
+  border-radius: 50%;
+  margin: 2.5px;
+  padding: 7.5px; }
+
