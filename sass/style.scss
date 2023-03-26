@@ -55,8 +55,7 @@
 }
 
 .tell-me-more {
-    top: 50%;
-    left: 50%;
+    position: absolute;
 }
 
 .nav-item a{
@@ -67,8 +66,6 @@
     color: gold;
 }
 
-
-
 .column-main i {
         font-size: 30px;
         width: 60px;
@@ -77,3 +74,31 @@
         color: gold;
         border-radius: 50%;
     }
+
+/* Services*/
+
+
+/* Portfolio */
+
+
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 80px;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card-text {
+    text-align: center;
+}
+
+.box {
+    margin-bottom: 15px;
+}
+
+.box img{
+    object-fit: cover;
+}
