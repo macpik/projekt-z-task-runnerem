@@ -1,13 +1,67 @@
+/*Global*/
 
-
-.navigation-bar-edit {
-    width: 80%;
-}
-.main {
-    background-image: url("https://images.pexels.com/photos/4992644/pexels-photo-4992644.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
-    min-height: 800px;
+*, *::before, *::after {
+	box-sizing: border-box;
 }
 
-.title-page h1, h3{
+.body {
+    margin: 0;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+.container {
+    max-width: 1140px; 
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.section {
+    padding: 108px 0 108px 0;
+}
+
+/* Splash */
+
+.splash {
+    height: 100vh;
+    position: relative;
+    background-image: url('https://images.pexels.com/photos/4992644/pexels-photo-4992644.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.splash-inner {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.page-title {
     color: white;
+    font-size: 60px;
+    text-align: center;
+    margin: 8px 0 0 0;
+}
+
+.page-subtitle {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.tell-me-more {
+    top: 50%;
+    left: 50%;
+}
+
+.nav-item a{
+    color: white;
+}
+
+.navbar-brand {
+    color: gold;
 }
