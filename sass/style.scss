@@ -15,6 +15,7 @@
     max-width: 1140px; 
     margin: 0 auto;
     padding: 0 20px;
+    margin-top: 40px;
 }
 
 .section {
@@ -65,3 +66,14 @@
 .navbar-brand {
     color: gold;
 }
+
+
+
+.column-main i {
+        font-size: 30px;
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        color: gold;
+        border-radius: 50%;
+    }
