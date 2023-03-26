@@ -54,6 +54,10 @@ h1, h2 {
     transform: translate(-50%,-50%);
 }
 
+.splash-inner h1 {
+    font-size: 100px;
+}
+
 .btn {
     display:flex;
     margin:auto;
@@ -129,8 +133,6 @@ h1, h2 {
 
 /* Portfolio */
 
-
-
 /* Footer */
 
 .page-footer {
@@ -139,10 +141,11 @@ h1, h2 {
     align-items: center;
 }
 
-.page-footer p {
-    position: absolute;
-    left: 0;
-    margin: auto;
+.social-media {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 10px;
 }
 
 .page-footer li {
